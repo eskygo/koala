@@ -9,7 +9,7 @@ describe('Conditional-Get', function () {
     })
 
     var server = app.listen()
-
+/* // bloody etag for big files is bad, removed
     it('should set an etag', function (done) {
       request(server)
       .get('/')
@@ -27,5 +27,6 @@ describe('Conditional-Get', function () {
       .set('If-None-Match', '"' + etag + '"')
       .expect(304, done);
     })
+*/
   })
 })

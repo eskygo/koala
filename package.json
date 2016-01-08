@@ -1,5 +1,5 @@
 {
-  "name": "@eskygo/koala",
+  "name": "@shekhei/koala",
   "description": "Koa Framework Suite",
   "version": "0.9.4",
   "author": {
@@ -16,6 +16,7 @@
     "commander": "2",
     "debug": "*",
     "delegates": "0",
+    "http2": "^3.2.0",
     "koa": "0",
     "koa-body-parsers": "1",
     "koa-cash": "1",
@@ -34,12 +35,13 @@
     "merge-descriptors": "1",
     "ms": "0",
     "mz": "1",
-    "qs": ">= 2"
+    "qs": ">= 2",
+    "spdy": "^1.32.0"
   },
   "devDependencies": {
+    "istanbul": "^0.4.1",
     "mocha": "2",
-    "supertest": "1",
-    "istanbul-harmony": "0"
+    "supertest": "1"
   },
   "main": "lib",
   "files": [
