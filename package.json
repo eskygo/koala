@@ -12,20 +12,18 @@
   "repository": "koajs/koala",
   "dependencies": {
     "basic-auth": "1",
-    "bluebird": "^3.1.1",
     "commander": "2",
     "debug": "*",
     "delegates": "^1.0.0",
     "http2": "^3.3.0",
     "istanbul": "^0.4.2",
-    "koa": "^1.1.2",
-    "koa-body-parsers": "1",
-    "koa-cash": "1",
-    "koa-compress": "1",
+    "koa": "^1.2.0",
+    "koa-body-parsers": "^3.0.0",
+    "koa-cash": "^2.0.0",
+    "koa-compress": "^1.0.9",
     "koa-csrf": "2",
     "koa-error": "1",
-    "koa-etag": "2",
-    "koa-file-server": "2",
+    "koa-etag": "^2.1.1",
     "koa-json": "1",
     "koa-logger": "1",
     "koa-qs": "2",
@@ -33,16 +31,15 @@
     "koa-safe-jsonp": "0",
     "koa-session": "^3.3.1",
     "koa-trace": "1",
-    "merge-descriptors": "1",
-    "ms": "0",
-    "mz": "^2.1.0",
-    "qs": ">= 2",
-    "spdy": "^3.0.0"
+    "merge-descriptors": "^1.0.1",
+    "ms": "^0.7.1",
+    "mz": "^2.3.1",
+    "qs": "^6.1.0"
   },
   "devDependencies": {
     "istanbul": "^0.4.1",
-    "mocha": "2",
-    "supertest": "1"
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
   },
   "main": "lib",
   "files": [
