@@ -34,7 +34,8 @@
     "merge-descriptors": "^1.0.1",
     "ms": "^0.7.1",
     "mz": "^2.3.1",
-    "qs": "^6.1.0"
+    "qs": "^6.1.0",
+    "bunyan": "*"
   },
   "devDependencies": {
     "istanbul": "^0.4.1",
